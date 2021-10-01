@@ -8,6 +8,7 @@ namespace SCG.Stats
     public class BaseStats : MonoBehaviour
     {
         [Range(1, 5)] [SerializeField] int startingLevel = 1;
-        [SerializeField] string characterClass;
+        [SerializeField] CharacterClass characterClass;
+        [SerializeField] Progression progression = null;
     }
 }
